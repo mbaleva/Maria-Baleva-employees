@@ -1,0 +1,94 @@
+# =========================
+# Ignore Visual Studio files
+# =========================
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build results
+# =========================
+
+bin/
+obj/
+out/
+
+# =========================
+# ASP.NET Core specific
+# =========================
+
+# Publish output folder
+publish/
+
+# IIS Express files
+IISExpress/
+
+# User secrets (if used)
+secrets.json
+
+# =========================
+# .NET Core
+# =========================
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Packages folder
+packages/
+
+# Rider IDE files
+.idea/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+
+# =========================
+# Test result folders
+# =========================
+
+TestResults/
+coverage/
+
+# =========================
+# React / Node.js
+# =========================
+
+# Node modules
+employee-overlap-ui/node_modules/
+
+# Build output
+employee-overlap-ui/build/
+employee-overlap-ui/dist/
+
+# Logs
+employee-overlap-ui/npm-debug.log*
+employee-overlap-ui/yarn-debug.log*
+employee-overlap-ui/yarn-error.log*
+
+# dotenv environment variables file
+employee-overlap-ui/.env
+employee-overlap-ui/.env.local
+employee-overlap-ui/.env.development.local
+employee-overlap-ui/.env.test.local
+employee-overlap-ui/.env.production.local
+
+# =========================
+# Misc
+# =========================
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac system files (optional)
+.DS_Store
